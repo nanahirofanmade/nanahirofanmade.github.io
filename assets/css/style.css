@@ -15,6 +15,13 @@
     header a.sns .dark {
       display: none;
     }
+
+    main div.news-content {
+      background-color: #f3f6fc;
+    }
+    main div.fanmade-content {
+      background-color: #f3f6fc;
+    }
   }
 
   @media (prefers-color-scheme: dark) {
@@ -32,6 +39,13 @@
     }
     header a.sns .light {
       display: none;
+    }
+
+    main div.news-content {
+      background-color: #2d2f31;
+    }
+    main div.fanmade-content {
+      background-color: #2d2f31;
     }
   }
 
@@ -60,7 +74,6 @@
   }
 
   main div.news-content {
-    background-color: #f3f6fc;
     padding: 20px;
     border-radius: 1rem;
     margin: 20px 0;
@@ -72,7 +85,6 @@
   }
 
   main div.fanmade-content {
-    background-color: #f3f6fc;
     padding: 20px;
     border-radius: 1rem;
     margin: 20px 0;
@@ -133,6 +145,13 @@
     header a.sns .dark {
       display: none;
     }
+
+    main div.news-content {
+      background-color: #f3f6fc;
+    }
+    main div.fanmade-content {
+      background-color: #f3f6fc;
+    }
   }
 
   @media (prefers-color-scheme: dark) {
@@ -150,6 +169,13 @@
     }
     header a.sns .light {
       display: none;
+    }
+
+    main div.news-content {
+      background-color: #2d2f31;
+    }
+    main div.fanmade-content {
+      background-color: #2d2f31;
     }
   }
 
@@ -173,7 +199,6 @@
   }
 
   main div.news-content {
-    background-color: #f3f6fc;
     padding: 20px;
     border-radius: 1rem;
     margin: 20px 0;
@@ -185,7 +210,6 @@
   }
 
   main div.fanmade-content {
-    background-color: #f3f6fc;
     padding: 20px;
     border-radius: 1rem;
     margin: 20px 0;
