@@ -172,6 +172,46 @@
     padding: 20px 0;
   }
 
+  main div.news-content {
+    background-color: #f3f6fc;
+    padding: 20px;
+    border-radius: 1rem;
+    margin: 20px 0;
+  }
+
+  main p.news-date {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  main div.fanmade-content {
+    background-color: #f3f6fc;
+    padding: 20px;
+    border-radius: 1rem;
+    margin: 20px 0;
+  }
+
+  main iframe.fanmade-embedded {
+    margin-bottom: 20px;
+  }
+
+  main p.fanmade-date {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  main iframe {
+    border-radius: 0.5rem;
+  }
+
+  main p.article-date {
+    margin-bottom: 20px;
+  }
+
+  main p {
+    margin-bottom: 6px;
+  }
+
   footer {
     height: 200px;
     display: flex;
