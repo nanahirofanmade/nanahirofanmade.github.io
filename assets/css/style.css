@@ -196,18 +196,22 @@
 
   main div.news-content {
     background-color: #f3f6fc;
+    transition-duration: 400ms;
   }
   div.news-content:hover {
     background-color: #ecf0f5;
+    transition-duration: 400ms;
   }
   div.news-content:active {
     background-color: #c7cacf;
   }
   main div.fanmade-content {
     background-color: #f3f6fc;
+    transition-duration: 400ms;
   }
   div.fanmade-content:hover {
     background-color: #ecf0f5;
+    transition-duration: 400ms;
   }
   div.fanmade-content:active {
     background-color: #c7cacf;
@@ -246,18 +250,22 @@
 
   main div.news-content {
     background-color: #2d2f31;
+    transition-duration: 400ms;
   }
   div.news-content:hover {
     background-color: #353739;
+    transition-duration: 400ms;
   }
   div.news-content:active {
     background-color: #5c5d60;
   }
   main div.fanmade-content {
     background-color: #2d2f31;
+    transition-duration: 400ms;
   }
   div.fanmade-content:hover {
     background-color: #353739;
+    transition-duration: 400ms;
   }
   div.fanmade-content:active {
     background-color: #5c5d60;
