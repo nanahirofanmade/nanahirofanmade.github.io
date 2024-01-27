@@ -81,7 +81,7 @@
   }
 
   footer {
-    height: 200px;
+    height: 250px;
     display: flex;
     align-items: center;
     padding: 0 80px;
@@ -168,7 +168,7 @@
   }
 
   footer {
-    height: 200px;
+    height: 300px;
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -350,4 +350,12 @@ label.expand::after {
   right: 40px;
   top: 6px;
   pointer-events: none;
+}
+
+.policy {
+  margin-top: 4px;
+}
+
+.copyright {
+  margin-top: 4px;
 }
