@@ -334,6 +334,11 @@ header div.center {
   justify-content: space-between;
 }
 
+.notfound {
+  text-align: center;
+  margin: 40px 0;
+}
+
 .title {
   font-family: 'Noto Sans JP', sans-serif;
 }

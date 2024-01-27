@@ -1,11 +1,13 @@
 const fanmadetype = document.querySelector('[name="type"]');
+const fanmadenotfound = document.querySelector('#notfound');
 const fanmadevideos = document.querySelectorAll('.fanmadevideo');
 const fanmadeimages = document.querySelectorAll('.fanmadeimage');
 const fanmadeother = document.querySelectorAll('.fanmadeanother');
 
+fanmadenotfound.style.display = "none";
+
 fanmadetype.addEventListener('change', () => {
   fanmadevideos.forEach((fanmadevideo) => {
-    console.log(fanmadevideo);
     if (fanmadetype.selectedIndex === 0 || fanmadetype.selectedIndex === 1) {
       fanmadevideo.style.display = "inline";
     } else {
@@ -13,7 +15,6 @@ fanmadetype.addEventListener('change', () => {
     }
   });
   fanmadeimages.forEach((fanmadeimage) => {
-    console.log(fanmadeimage);
     if (fanmadetype.selectedIndex === 0 || fanmadetype.selectedIndex === 2) {
       fanmadeimage.style.display = "inline";
     } else {
@@ -21,11 +22,15 @@ fanmadetype.addEventListener('change', () => {
     }
   });
   fanmadeother.forEach((fanmadeanother) => {
-    console.log(fanmadeanother);
     if (fanmadetype.selectedIndex === 0 || fanmadetype.selectedIndex === 3) {
       fanmadeanother.style.display = "inline";
     } else {
       fanmadeanother.style.display = "none";
     }
   });
+  if (fanmadetype.selectedIndex === 2 || fanmadetype.selectedIndex === 3) {
+    fanmadenotfound.style.display = "inline";
+  } else {
+    fanmadenotfound.style.display = "none";
+  }
 });
