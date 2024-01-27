@@ -240,7 +240,7 @@
     transition-duration: 400ms;
   }
   select:focus {
-    transition-duration: 400ms;
+    outline: 2px solid #e8731a;
   }
   select:hover {
     background-color: #eeebea;
