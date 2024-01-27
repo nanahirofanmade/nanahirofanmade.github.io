@@ -352,10 +352,24 @@ label.expand::after {
   pointer-events: none;
 }
 
+footer {
+  width: 100%;
+}
+
+footer p {
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  text-align: center;
+}
+
+.footer-content {
+  width: 100%;
+}
+
 .policy {
-  margin-top: 4px;
+  margin-top: 1rem;
 }
 
 .copyright {
-  margin-top: 4px;
+  margin-top: 1rem;
 }
