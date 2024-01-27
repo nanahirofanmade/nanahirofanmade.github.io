@@ -186,13 +186,13 @@
     background-color: #c7cacf;
   }
 
-  main p a {
+  p a {
     color: #1a73e8;
   }
-  main p a:hover {
+  p a:hover {
     text-decoration: underline;
   }
-  main p a:active {
+  p a:active {
     color: #174ea6;
   }
 }
@@ -233,13 +233,13 @@
     background-color: #5c5d60;
   }
 
-  main p a {
+  p a {
     color: #8ab4f8;
   }
-  main p a:hover {
+  p a:hover {
     text-decoration: underline;
   }
-  main p a:active {
+  p a:active {
     color: #d2e3fc;
   }
 }
