@@ -338,6 +338,10 @@ header div.center {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.title.en {
+  font-family: 'Roboto', sans-serif;
+}
+
 label.expand::after {
   font-family: 'Material Symbols Outlined';
   content: "arrow_drop_down";
