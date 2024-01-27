@@ -220,6 +220,7 @@
     text-decoration: underline;
   }
   p a:active {
+    text-decoration: underline;
     color: #174ea6;
   }
 }
@@ -269,6 +270,7 @@
     text-decoration: underline;
   }
   p a:active {
+    text-decoration: underline;
     color: #d2e3fc;
   }
 }
