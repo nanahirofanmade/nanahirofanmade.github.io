@@ -1,78 +1,4 @@
 @media only screen and (min-width: 768px) {
-  @media (prefers-color-scheme: light) {
-    body {
-      color: #000;
-      background-color: #fff;
-    }
-
-    header {
-      background: linear-gradient(#fff 80%, transparent);
-    }
-
-    header a.sns .dark {
-      display: none;
-    }
-    header a.sns .dark {
-      display: none;
-    }
-
-    main div.news-content {
-      background-color: #f3f6fc;
-    }
-    div.news-content:hover {
-      background-color: #ecf0f5;
-    }
-    div.news-content:active {
-      background-color: #c7cacf;
-    }
-    main div.fanmade-content {
-      background-color: #f3f6fc;
-    }
-    div.fanmade-content:hover {
-      background-color: #ecf0f5;
-    }
-    div.fanmade-content:active {
-      background-color: #c7cacf;
-    }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      color: #fff;
-      background-color: #202124;
-    }
-
-    header {
-      background: linear-gradient(#202124 80%, transparent);
-    }
-
-    header a.sns .light {
-      display: none;
-    }
-    header a.sns .light {
-      display: none;
-    }
-
-    main div.news-content {
-      background-color: #2d2f31;
-    }
-    div.news-content:hover {
-      background-color: #353739;
-    }
-    div.news-content:active {
-      background-color: #5c5d60;
-    }
-    main div.fanmade-content {
-      background-color: #2d2f31;
-    }
-    div.fanmade-content:hover {
-      background-color: #353739;
-    }
-    div.fanmade-content:active {
-      background-color: #5c5d60;
-    }
-  }
-
   header {
     margin-bottom: 24px;
     padding: 0 60px;
@@ -153,80 +79,6 @@
 /* !end of computer */
 
 @media only screen and (max-width: 767px) {
-  @media (prefers-color-scheme: light) {
-    body {
-      color: #000;
-      background-color: #fff;
-    }
-
-    header {
-      background: linear-gradient(#fff 80%, transparent);
-    }
-
-    header a.sns .dark {
-      display: none;
-    }
-    header a.sns .dark {
-      display: none;
-    }
-
-    main div.news-content {
-      background-color: #f3f6fc;
-    }
-    div.news-content:hover {
-      background-color: #ecf0f5;
-    }
-    div.news-content:active {
-      background-color: #c7cacf;
-    }
-    main div.fanmade-content {
-      background-color: #f3f6fc;
-    }
-    div.fanmade-content:hover {
-      background-color: #ecf0f5;
-    }
-    div.fanmade-content:active {
-      background-color: #c7cacf;
-    }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      color: #fff;
-      background-color: #202124;
-    }
-
-    header {
-      background: linear-gradient(#202124 80%, transparent);
-    }
-
-    header a.sns .light {
-      display: none;
-    }
-    header a.sns .light {
-      display: none;
-    }
-
-    main div.news-content {
-      background-color: #2d2f31;
-    }
-    div.news-content:hover {
-      background-color: #353739;
-    }
-    div.news-content:active {
-      background-color: #5c5d60;
-    }
-    main div.fanmade-content {
-      background-color: #2d2f31;
-    }
-    div.fanmade-content:hover {
-      background-color: #353739;
-    }
-    div.fanmade-content:active {
-      background-color: #5c5d60;
-    }
-  }
-
   header {
     padding: 0 16px;
   }
@@ -297,6 +149,100 @@
 }
 
 /* !end of smartphone */
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: #000;
+    background-color: #fff;
+  }
+
+  header {
+    background: linear-gradient(#fff 80%, transparent);
+  }
+
+  header a.sns .dark {
+    display: none;
+  }
+  header a.sns .dark {
+    display: none;
+  }
+
+  main div.news-content {
+    background-color: #f3f6fc;
+  }
+  div.news-content:hover {
+    background-color: #ecf0f5;
+  }
+  div.news-content:active {
+    background-color: #c7cacf;
+  }
+  main div.fanmade-content {
+    background-color: #f3f6fc;
+  }
+  div.fanmade-content:hover {
+    background-color: #ecf0f5;
+  }
+  div.fanmade-content:active {
+    background-color: #c7cacf;
+  }
+
+  main p a {
+    color: #1a73e8;
+  }
+  main p a:hover {
+    text-decoration: underline;
+  }
+  main p a:active {
+    color: #174ea6;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background-color: #202124;
+  }
+
+  header {
+    background: linear-gradient(#202124 80%, transparent);
+  }
+
+  header a.sns .light {
+    display: none;
+  }
+  header a.sns .light {
+    display: none;
+  }
+
+  main div.news-content {
+    background-color: #2d2f31;
+  }
+  div.news-content:hover {
+    background-color: #353739;
+  }
+  div.news-content:active {
+    background-color: #5c5d60;
+  }
+  main div.fanmade-content {
+    background-color: #2d2f31;
+  }
+  div.fanmade-content:hover {
+    background-color: #353739;
+  }
+  div.fanmade-content:active {
+    background-color: #5c5d60;
+  }
+
+  main p a {
+    color: #8ab4f8;
+  }
+  main p a:hover {
+    text-decoration: underline;
+  }
+  main p a:active {
+    color: #d2e3fc;
+  }
+}
 
 body {
   line-height: 1.5;
