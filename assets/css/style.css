@@ -237,14 +237,12 @@
     background-color: #fef0e8;
     padding: 10px 100px 10px 10px;
     border-radius: 0.4rem;
-    transition-duration: 400ms;
   }
   select:focus {
     outline: 2px solid #e8731a;
   }
   select:hover {
     background-color: #eeebea;
-    transition-duration: 400ms;
   }
   select:active {
     background-color: #dad7d4;
@@ -309,14 +307,12 @@
     background-color: #43403c;
     padding: 10px 100px 10px 10px;
     border-radius: 0.4rem;
-    transition-duration: 400ms;
   }
   select:focus {
     outline: 2px solid #f8b48a;
   }
   select:hover {
     background-color: #3a3837;
-    transition-duration: 400ms;
   }
   select:active {
     background-color: #535151;
