@@ -181,6 +181,7 @@
   body {
     color: #000;
     background-color: #fff;
+    transition-duration: 400ms;
   }
 
   header {
@@ -195,37 +196,37 @@
   }
 
   main div.news-content {
-    background-color: #f3f6fc;
+    background-color: #fcf6f3;
     transition-duration: 400ms;
   }
   div.news-content:hover {
-    background-color: #ecf0f5;
+    background-color: #f5f0ec;
     transition-duration: 400ms;
   }
   div.news-content:active {
-    background-color: #c7cacf;
+    background-color: #cfcac7;
   }
   main div.fanmade-content {
-    background-color: #f3f6fc;
+    background-color: #fcf6f3;
     transition-duration: 400ms;
   }
   div.fanmade-content:hover {
-    background-color: #ecf0f5;
+    background-color: #f5f0ec;
     transition-duration: 400ms;
   }
   div.fanmade-content:active {
-    background-color: #c7cacf;
+    background-color: #cfcac7;
   }
 
   main p a {
-    color: #1a73e8;
+    color: #e8731a;
   }
   p a:hover {
     text-decoration: underline;
   }
   p a:active {
     text-decoration: underline;
-    color: #174ea6;
+    color: #a64e17;
   }
 }
 
@@ -234,11 +235,12 @@
 @media (prefers-color-scheme: dark) {
   body {
     color: #fff;
-    background-color: #202124;
+    background-color: #242120;
+    transition-duration: 400ms;
   }
 
   header {
-    background: linear-gradient(#202124 80%, transparent);
+    background: linear-gradient(#242120 80%, transparent);
   }
 
   header a.sns .light {
@@ -249,37 +251,37 @@
   }
 
   main div.news-content {
-    background-color: #2d2f31;
+    background-color: #312f2d;
     transition-duration: 400ms;
   }
   div.news-content:hover {
-    background-color: #353739;
+    background-color: #393735;
     transition-duration: 400ms;
   }
   div.news-content:active {
-    background-color: #5c5d60;
+    background-color: #605d5c;
   }
   main div.fanmade-content {
-    background-color: #2d2f31;
+    background-color: #312f2d;
     transition-duration: 400ms;
   }
   div.fanmade-content:hover {
-    background-color: #353739;
+    background-color: #393735;
     transition-duration: 400ms;
   }
   div.fanmade-content:active {
-    background-color: #5c5d60;
+    background-color: #605d5c;
   }
 
   main p a {
-    color: #8ab4f8;
+    color: #f8b48a;
   }
   p a:hover {
     text-decoration: underline;
   }
   p a:active {
     text-decoration: underline;
-    color: #d2e3fc;
+    color: #fce3d2;
   }
 }
 
