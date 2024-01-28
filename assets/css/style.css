@@ -383,6 +383,9 @@ footer p {
 
 .policy {
   margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+	gap: 0 16px;
 }
 
 .copyright {
