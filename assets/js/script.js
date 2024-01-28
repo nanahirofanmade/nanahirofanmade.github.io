@@ -6,10 +6,6 @@ const fanmadeother = document.querySelectorAll('.fanmadeanother');
 
 fanmadenotfound.style.display = "none";
 
-function removeTrailingSlash(urlstring) {
-  return urlstring.replace(/\/+$/, '');
-}
-
 fanmadetype.addEventListener('change', () => {
   fanmadevideos.forEach((fanmadevideo) => {
     if (fanmadetype.selectedIndex === 0 || fanmadetype.selectedIndex === 1) {
