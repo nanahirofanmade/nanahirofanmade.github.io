@@ -1,6 +1,6 @@
 ---
-title: ななひろファンメイド Web サイトを開設しました！
-layout: jaarticle
+title: Opened Nanahiro Fanmade Website!
+layout: enarticle
 ---
 
 # ななひろファンメイド Web サイトを開設しました！
