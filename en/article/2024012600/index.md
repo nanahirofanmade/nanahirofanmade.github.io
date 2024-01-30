@@ -3,7 +3,7 @@ title: Opened Nanahiro Fanmade Website!
 layout: enarticle
 ---
 
-# ななひろファンメイド Web サイトを開設しました！
+# Opened Nanahiro Fanmade Website!
 
 2024年1月26日
 
