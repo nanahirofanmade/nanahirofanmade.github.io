@@ -1,6 +1,7 @@
 ---
 title: Opened Nanahiro Fanmade Website!
 layout: enarticle
+permalink: /en/article/2024012600
 ---
 
 # Opened Nanahiro Fanmade Website!

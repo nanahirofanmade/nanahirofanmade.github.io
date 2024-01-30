@@ -1,6 +1,7 @@
 ---
 title: ななひろファンメイド Web サイトを開設しました！
 layout: jaarticle
+permalink: /article/2024012600
 ---
 
 # ななひろファンメイド Web サイトを開設しました！
