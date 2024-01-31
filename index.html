@@ -146,5 +146,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </footer>
   <!-- /footer -->
+
+<script>
+  const redirect = window.location.href;
+  if (redirect.endsWith('/index.html')) {
+    window.location.href = redirect.slice(0, -11);
+  }
+</script>
+
 </body>
 </html>
