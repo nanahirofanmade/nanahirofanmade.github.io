@@ -384,7 +384,7 @@ p a[target="_blank"]::after {
   font-family: 'Material Symbols Outlined';
   content: "open_in_new";
   position: relative;
-  top: 2px;
+  top: 0.125rem;
 }
 
 footer {
