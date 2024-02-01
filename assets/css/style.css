@@ -375,7 +375,7 @@ label.expand::after {
   pointer-events: none;
 }
 
-p a::after {
+p a[target="_blank"]::after {
   font-family: 'Material Symbols Outlined';
   content: "open_in_new";
   position: relative;
