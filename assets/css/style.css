@@ -336,6 +336,10 @@ body {
   line-height: 1.5;
 }
 
+header {
+  top: 0;
+}
+
 header div.center {
   height: 88px;
   display: flex;
