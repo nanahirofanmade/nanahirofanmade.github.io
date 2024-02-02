@@ -1,3 +1,16 @@
+const mainelement = document.querySelector('main');
+
+const feedin = {
+  opacity: [0, 1],
+  translate: ['0 40px', 0],
+};
+const easeout = {
+  duration: 200,
+  easing: 'ease-out',
+};
+
+mainelement.animate(feedin, easeout);
+
 const fanmadetype = document.querySelector('[name="type"]');
 const fanmadenotfound = document.querySelector('#notfound');
 const fanmadevideos = document.querySelectorAll('.fanmadevideo');
