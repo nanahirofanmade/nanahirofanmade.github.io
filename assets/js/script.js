@@ -8,10 +8,10 @@ const easeout = {
   easing: 'cubic-bezier(0,.8,.2,1)',
 };
 
+mainelement.animate(feedin, easeout);
 mainelement.animate({
   opacity: [0, 1],
 }, 200);
-mainelement.animate(feedin, easeout);
 
 const fanmadetype = document.querySelector('[name="type"]');
 const fanmadenotfound = document.querySelector('#notfound');
