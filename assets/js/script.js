@@ -2,11 +2,11 @@ const mainelement = document.querySelector('main');
 
 const feedin = {
   opacity: [0, 1],
-  translate: ['0 80px', 0],
+  translate: ['0 160px', 0],
 };
 const easeout = {
   duration: 200,
-  easing: 'cubic-bezier(.1,.8,.2,.9)',
+  easing: 'cubic-bezier(0,.8,.2,1)',
 };
 
 mainelement.animate(feedin, easeout);
