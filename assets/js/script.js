@@ -5,7 +5,7 @@ const feedin = {
 };
 const easeout = {
   duration: 200,
-  easing: 'cubic-bezier(0,.8,.2,1)',
+  easing: 'cubic-bezier(0, .8, .2, 1)',
 };
 
 mainelement.animate(feedin, easeout);
