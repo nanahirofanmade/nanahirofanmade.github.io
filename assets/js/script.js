@@ -1,7 +1,6 @@
 const mainelement = document.querySelector('main');
 
 const feedin = {
-  opacity: [0, 1],
   translate: ['0 160px', 0],
 };
 const easeout = {
@@ -9,6 +8,9 @@ const easeout = {
   easing: 'cubic-bezier(0,.8,.2,1)',
 };
 
+mainelement.animate({
+  opacity: [0, 1],
+}, 200);
 mainelement.animate(feedin, easeout);
 
 const fanmadetype = document.querySelector('[name="type"]');
