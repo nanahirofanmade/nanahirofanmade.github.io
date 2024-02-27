@@ -276,8 +276,8 @@
     background: #242120;
     color: #fff;
     overflow-x: auto;
-    line-height: 1;
-    font-size: 70%;
+    line-height: 1.1;
+    font-size: 10px;
   }
 }
 
@@ -352,8 +352,8 @@
     background: #fff;
     color: #242120;
     white-space: pre-line;
-    line-height: 1;
-    font-size: 70%;
+    line-height: 1.1;
+    font-size: 10px;
   }
 }
 
