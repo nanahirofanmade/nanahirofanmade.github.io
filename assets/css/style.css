@@ -1,3 +1,5 @@
+/* !start of computer */
+
 @media only screen and (min-width: 768px) {
   header {
     margin-bottom: 24px;
@@ -105,6 +107,7 @@
 }
 
 /* !end of computer */
+/* !start of smartphone */
 
 @media only screen and (max-width: 767px) {
   header {
@@ -203,6 +206,7 @@
 }
 
 /* !end of smartphone */
+/* !start of common light theme */
 
 @media (prefers-color-scheme: light) {
   body {
@@ -264,9 +268,19 @@
   select:focus {
     outline: 2px solid #e8731a;
   }
+
+  pre {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #242120;
+    color: #fff;
+    overflow-x: auto;
+  }
 }
 
 /* !end of common light theme */
+/* !start of common dark theme */
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -328,10 +342,19 @@
   select:focus {
     outline: 2px solid #f8b48a;
   }
+
+  pre {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    color: #242120;
+    white-space: pre-line;
+  }
 }
 
 /* !end of common dark theme */
-
+/* !start of other */
 
 body {
   line-height: 1.5;
@@ -412,3 +435,5 @@ footer p {
 .copyright {
   margin-top: 1rem;
 }
+
+/* !end of other */
