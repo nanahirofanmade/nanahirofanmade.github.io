@@ -276,6 +276,7 @@
     background: #242120;
     color: #fff;
     overflow-x: auto;
+    line-height: 1;
   }
 }
 
@@ -350,6 +351,7 @@
     background: #fff;
     color: #242120;
     white-space: pre-line;
+    line-height: 1;
   }
 }
 
