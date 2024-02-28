@@ -5,7 +5,7 @@ const feedin = {
 };
 const easeout = {
   duration: 200,
-  easing: 'cubic-bezier(0, .8, .2, 1)',
+  easing: 'cubic-bezier(0.0, 0.8, 0.2, 1.0)',
 };
 
 mainelement.animate(feedin, easeout);
@@ -43,7 +43,7 @@ fanmadetype.addEventListener('change', () => {
       fanmadeanother.style.display = "none";
     }
   });
-  if (fanmadetype.selectedIndex === 2 || fanmadetype.selectedIndex === 3) {
+  if (fanmadetype.selectedIndex === 2) {
     fanmadenotfound.style.display = "inline";
   } else {
     fanmadenotfound.style.display = "none";

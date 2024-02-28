@@ -62,11 +62,11 @@
     font-size: 32px;
   }
 
-  main iframe.fanmade-embedded {
+  main .fanmade-embedded {
     margin-right: 40px;
-  }
-  main video.fanmade-embedded {
-    margin-right: 40px;
+    width: 300px;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
   }
 
   main div.fanmade-description {
@@ -164,13 +164,11 @@
     display: none;
   }
 
-  main iframe.fanmade-embedded {
+  main .fanmade-embedded {
     margin-bottom: 20px;
     width: 100%;
-  }
-  main video.fanmade-embedded {
-    margin-bottom: 20px;
-    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
   }
 
   main p.fanmade-date {
