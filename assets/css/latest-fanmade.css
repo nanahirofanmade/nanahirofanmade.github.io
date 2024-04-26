@@ -1,0 +1,136 @@
+/* !start of computer */
+@media only screen and (min-width: 768px) {
+  /* !start of light theme */
+  /* !end of light theme */
+
+  /* !start of dark theme */
+  /* !end of dark theme */
+
+  div.fanmade-root {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  div.fanmade-showall-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* !end of computer */
+
+/* !start of smartphone */
+@media only screen and (max-width: 767px) {
+  /* !start of light theme */
+  /* !end of light theme */
+
+  /* !start of dark theme */
+  /* !end of dark theme */
+
+  div.fanmade-root {
+    display: grid;
+    gap: 1rem;
+  }
+
+  div.fanmade-parent.hidden, div.fanmade-parent.hidden {
+    display: none;
+  }
+}
+/* !end of smartphone */
+
+/* !start of common */
+  /* !start of light theme */
+  @media (prefers-color-scheme: light) {
+    div.fanmade-parent {
+      background-color: #fcf6f3;
+      transition-duration: 400ms;
+      border-radius: 1rem;
+    }
+
+    div.fanmade-parent:hover {
+      background-color: #f5f0ec;
+      transition-duration: 400ms;
+    }
+    div.fanmade-parent:active {
+      background-color: #cfcac7;
+    }
+
+    a.fanmade-showall-link {
+      background-color: #fcf6f3;
+      transition-duration: 400ms;
+      border-radius: 2rem;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    a.fanmade-showall-link:hover {
+      background-color: #f5f0ec;
+      transition-duration: 400ms;
+    }
+    a.fanmade-showall-link:active {
+      background-color: #cfcac7;
+    }
+  }
+  /* !end of light theme */
+
+  /* !start of dark theme */
+  @media (prefers-color-scheme: dark) {
+    div.fanmade-parent {
+      background-color: #312f2d;
+      transition-duration: 400ms;
+      border-radius: 1rem;
+    }
+
+    div.fanmade-parent:hover {
+      background-color: #393735;
+      transition-duration: 400ms;
+    }
+    div.fanmade-parent:active {
+      background-color: #605d5c;
+    }
+
+    a.fanmade-showall-link {
+      background-color: #312f2d;
+      transition-duration: 400ms;
+      border-radius: 2rem;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    a.fanmade-showall-link:hover {
+      background-color: #393735;
+      transition-duration: 400ms;
+    }
+    a.fanmade-showall-link:active {
+      background-color: #605d5c;
+    }
+  }
+  /* !end of dark theme */
+
+.fanmade-thumbnail {
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+div.fanmade-media-content {
+  padding: 1.5rem;
+}
+
+p.fanmade-title {
+  margin-top: 1rem;
+}
+
+p.fanmade-date {
+  margin-top: 0.5rem;
+}
+/* !end of common */
+
+/* !start of other */
+/* !end of other */

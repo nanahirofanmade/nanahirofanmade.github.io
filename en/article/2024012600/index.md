@@ -4,12 +4,10 @@ layout: enarticle
 permalink: /en/article/2024012600
 ---
 
-# Opened Nanahiro Fanmade Website!
-
 Jan 26, 2024
 
-みなさま、こんにちは！ななひろファンメイド Web サイトを開設しました。この Web サイトでは、主にファンが作ったななひろさんのクリップ動画を見つけることができます。また、愛のあるななひろさん関連の面白動画や画像なども紹介させていただくことがあります。今はすっごくシンプルなデザインとなっていますが、今後改善していけたらなと思います。
+Hello everyone! I opened Nanahiro Fanmade website. On this website, you can find Nanahiro’s fan-made video clips. Also, I may introduce interesting videos and images related to Nanahiro. Currently, this website design is very simple, but I want to improve it in the future.
 
-みなさまにとって便利なサイトを目指したいと思います！また、この Web サイトはななひろさんと何ら関係ありません（つまり、ななひろさんがこの Web サイトを作成したり監督したりしていません）ので、ご了承ください。
+My goal is to make this website useful for everyone! Please also note that this website is not affiliated with Nanahiro (For example, Nanahiro did not create or supervise this website).
 
-（ななひろさんに怒られたらすぐにこの Web サイトを削除させていただきます。）
+(If Nanahiro requests deletion of this website, I will do so immediately.)

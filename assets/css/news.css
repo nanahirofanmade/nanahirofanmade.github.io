@@ -1,0 +1,67 @@
+/* !start of computer */
+  /* !start of light theme */
+  /* !end of light theme */
+
+  /* !start of dark theme */
+  /* !end of dark theme */
+/* !end of computer */
+
+/* !start of smartphone */
+  /* !start of light theme */
+  /* !end of light theme */
+
+  /* !start of dark theme */
+  /* !end of dark theme */
+/* !end of smartphone */
+
+/* !start of common */
+  /* !start of light theme */
+  @media (prefers-color-scheme: light) {
+    div.news-parent {
+      background-color: #fcf6f3;
+      transition-duration: 400ms;
+      border-radius: 1rem;
+    }
+
+    div.news-parent:hover {
+      background-color: #f5f0ec;
+      transition-duration: 400ms;
+    }
+    div.news-parent:active {
+      background-color: #cfcac7;
+    }
+  }
+  /* !end of light theme */
+
+  /* !start of dark theme */
+  @media (prefers-color-scheme: dark) {
+    div.news-parent {
+      background-color: #312f2d;
+      transition-duration: 400ms;
+      border-radius: 1rem;
+    }
+
+    div.news-parent:hover {
+      background-color: #393735;
+      transition-duration: 400ms;
+    }
+    div.news-parent:active {
+      background-color: #605d5c;
+    }
+  }
+  /* !end of dark theme */
+
+a.news-link {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p.news-date {
+  margin-top: 0.5rem;
+}
+/* !end of common */
+
+/* !start of other */
+/* !end of other */
